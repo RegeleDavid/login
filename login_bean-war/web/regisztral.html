@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>REG</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+        <script src="reg_.js"></script>
+        <link rel="stylesheet" type="text/css" href="reg.css" >
+    </head>
+    <body>
+        <div></div>
+        <div class="text-center bg-info p-5">
+            <div class="form-group">
+                REG
+            </div>
+            <div>
+                <form action="reg" method="post">
+                    <div class="form-group">
+                        Nev:<input type="text" name="nev" id="nev">
+                    </div>
+                    <div class="form-group">
+                        Jelszó:<input type="text" name="jelszo" id="jelszo">
+                    </div>
+                    <div class="form-group">
+                        Megegyszer a jelszó:<input type="text" name="megegyszer_a_jelszo" id="megegyszer_a_jelszo"> 
+                        <br>
+                        <span class="text-danger" id="kiir"></span>
+                    </div>
+                    <div>
+                        <input type="submit" id="reg" >
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

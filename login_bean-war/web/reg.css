@@ -1,0 +1,7 @@
+input[type=text]:hover{
+    border: 5px solid yellow;
+    
+}
+input[type=text]{
+    border-radius: 5px;
+}
